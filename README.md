@@ -1,6 +1,7 @@
 # Paul English website
 
 Blog site using Eleventy and Tailwind CSS.
+Create pages or posts with either [markup language](https://www.markdownguide.org/) or plain HTML.
 
 See demo [here](https://vredeburg.netlify.app)!
 
@@ -43,3 +44,5 @@ npm run debug
 ```
 
 ## Configuration
+
+Articles
