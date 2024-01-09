@@ -1,17 +1,18 @@
 ---
-title: " A Truck Full of Money"
+title: "A Truck Full of Money"
 description:
+thumb: "A-Truck-Full-of-Money.webp"
 date: 2022-02-25
-thumb:
 tags:
   - self-development
 ---
 
 <h2><a href="https://www.amazon.com/Truck-Full-Money-Tracy-Kidder-ebook/dp/B019B6WTVQ">A Truck Full Of Money</a></h2>
 
-<p><a href="https://www.amazon.com/Truck-Full-Money-Tracy-Kidder-ebook/dp/B019B6WTVQ"><img src="/assets/img/A-Truck-Full-of-Money.webp" width="500"></a>
+<!-- <p><a href="https://www.amazon.com/Truck-Full-Money-Tracy-Kidder-ebook/dp/B019B6WTVQ"><img src="/assets/img/A-Truck-Full-of-Money.webp" width="500"></a>
 
-</p><p>
+</p> -->
+<p>
 <a href="https://en.wikipedia.org/wiki/Tracy_Kidder">Tracy Kidder</a>
 wrote a
 <a href="https://www.amazon.com/Truck-Full-Money-Tracy-Kidder-ebook/dp/B019B6WTVQ">book
