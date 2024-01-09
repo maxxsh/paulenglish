@@ -1,8 +1,8 @@
 <div class="mt-3 flow-root">
     {% if not paged.first %}
-        <a href="{{ pagination.href.previous | url }}" class="float-left bg-white font-semibold py-2 px-4 border rounded shadow-md text-slate-800 cursor-pointer hover:bg-slate-100" aria-label="Previous page">Previous</a>
+        <a href="{{ pagination.href.previous | url }}" class="float-left bg-white font-semibold py-2 px-4 border rounded shadow-md text-slate-800 cursor-pointer hover:bg-slate-100" rel="prev" aria-label="Previous page">Previous</a>
     {% endif %}
     {% if not paged.last %}
-        <a href="{{ pagination.href.next | url }}" class="float-right bg-white font-semibold py-2 px-4 border rounded shadow-md text-slate-800 cursor-pointer hover:bg-slate-100" aria-label="Next page">Next</a>
+        <a href="{{ pagination.href.next | url }}" class="float-right bg-white font-semibold py-2 px-4 border rounded shadow-md text-slate-800 cursor-pointer hover:bg-slate-100" rel="next" aria-label="Next page">Next</a>
     {% endif %}
 </div>

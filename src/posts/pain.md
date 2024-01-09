@@ -1,7 +1,7 @@
 ---
 title: "Pain"
 date: 2023-08-10
-tags: self-development
+tags: health
 ---
 
 <p>Here are some things I have learned about reducing pain
