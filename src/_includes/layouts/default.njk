@@ -1,0 +1,51 @@
+{%- set metaTitle -%}
+{%- if not title -%}{{ site.title }} - {{ site.description | safe }}
+{%- else -%}{{ title | safe }} | {{ site.title }}
+{%- endif -%}
+{%- endset -%}
+{%- set metaDesc -%}
+{%- if not description -%}{{ site.description | safe }}
+{%- else -%}{{ description | safe }}
+{%- endif -%}
+{%- endset -%}
+{%- set canonical -%}
+{%- if not canonical -%}{{ site.url | url }}{{ page.url }}
+{%- else -%}{{ canonical | url }}
+{%- endif -%}
+{%- endset -%}
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ metaTitle }}</title>
+        <meta name="title" content="{{ metaTitle }}">
+        <meta name="description" content="{{ metaDesc }}">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="{{ canonical }}">
+        <link rel="shortcut icon" type="image/png" href="{{ '/assets/img/favicon.png' | url }}">
+        <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | url }}">
+        <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+        <meta name="generator" content="Eleventy">
+    </head>
+
+    <body class="flex flex-col h-screen bg-white text-slate-800 break-words">
+
+        {% include "partials/header.njk" %}
+        <main id="main" class="mx-7 lg:mx-6 mt-32 flex-grow">
+            {% if layout === "post" %}
+                {{ content | safe }}
+            {% else %}
+                <div class="site-width mx-auto">
+                    {{ content | safe }}
+                </div>
+            {% endif %}
+        </main>
+        {% include "partials/footer.njk" %}
+        <script src="{{ '/assets/js/bundle.js' | url }}"></script>
+    </body>
+
+</html>

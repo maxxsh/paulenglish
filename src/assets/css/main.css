@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    --primary-color: #4b0082;
+  }
+  .site-width {
+    max-width: 70rem;
+  }
+  h1 {
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    margin-bottom: 0.9em;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 1.15;
+    margin-bottom: 0.3em;
+    margin-top: 0.5em;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.125;
+    margin-bottom: 0.2em;
+    margin-top: 0.3em;
+  }
+  article p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  article a {
+    color: #1161a0;
+    text-decoration: underline;
+  }
+  .skip-link {
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+    left: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    transform: translateY(-200%);
+    transition: transform 0.3s;
+  }
+
+  .skip-link:focus {
+    transform: translateY(0%);
+  }
+  ul {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    padding-left: 1.6em;
+    list-style-type: disc;
+  }
+  ol {
+    list-style-type: decimal;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    padding-left: 1.625em;
+  }
+  li {
+    padding-left: 0.375em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  table {
+    width: 100%;
+    table-layout: auto;
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 0.875em;
+    line-height: 1.7142857;
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+  thead {
+    border-bottom-width: 1px;
+    border-bottom-color: #e5e7eb;
+  }
+  tbody {
+    tr {
+      border-bottom-width: 1px;
+      border-bottom-color: #e5e7eb;
+
+      &:last-child {
+        border-bottom-width: 0;
+      }
+    }
+    td,
+    tfoot td {
+      padding-top: 0.5714286em;
+      padding-right: 0.5714286em;
+      padding-bottom: 0.5714286em;
+      padding-left: 0.5714286em;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+@layer utilities {
+  .visually-hidden {
+    @apply block absolute h-px w-px overflow-hidden whitespace-nowrap;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(1px);
+  }
+}
+#menu a.active {
+  font-weight: 700;
+}

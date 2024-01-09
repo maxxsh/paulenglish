@@ -1,0 +1,19 @@
+[
+  {
+    "label": "Articles",
+    "url": "/articles"
+  },
+  {
+    "label": "Startups",
+    "url": "/startups"
+  },
+
+  {
+    "label": "Nonprofits",
+    "url": "/nonprofits"
+  },
+  {
+    "label": "Press",
+    "url": "/press"
+  }
+]

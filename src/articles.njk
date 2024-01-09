@@ -1,0 +1,24 @@
+---
+layout: default
+title: Articles
+pagination:
+    data: collections.pagedPosts
+    size: 1
+    alias: paged
+permalink: "/articles/{% if paged.number > 1 %}page/{{ paged.number }}/{% endif %}index.html"
+---
+<section>
+    <article>
+        <h1 class="mt-0 mb-7 text-center">Articles</h1>
+        <div class="flex justify-center flex-wrap">
+            {% include "partials/tags.njk" %}
+        </div>
+        <div class="flex flex-wrap -mx-2">
+            {% include "partials/post-grid.njk" %}
+        </div>
+
+        {% if collections.posts.length > site.paginate %}
+            {% include "partials/paginator.njk" %}
+        {% endif %}
+    </article>
+    <section>
