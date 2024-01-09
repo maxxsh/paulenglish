@@ -1,7 +1,7 @@
 ---
 title: "Obit"
 date: 2020-10-17
-tags: self-development
+tags: life
 ---
 
 <p>Here are some important people to me that have died:
@@ -30,6 +30,5 @@ there, and what we learned from them.
     Samdo</a>, 
 the first "bar artist" I ever met, his bar was magical
 </li></ul>
-
 
 </td>

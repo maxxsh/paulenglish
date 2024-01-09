@@ -1,7 +1,7 @@
 ---
 title: "Domain Names"
 date: 2022-03-19
-tags: self-development
+tags: web
 ---
 
 <p>I am obsessed with brand, and domain names are step one for me.
@@ -31,6 +31,5 @@ pay $10k for roadwars.com (stay tuned for that product).
 </li></ul>
 
 <p>Good luck!
-
 
 </p>

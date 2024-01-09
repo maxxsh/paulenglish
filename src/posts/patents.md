@@ -1,7 +1,7 @@
 ---
 title: "Patents"
 date: 2017-08-14
-tags: self-development
+tags: development
 ---
 
 <p>I have mixed feelings about software patents. Some patents are
@@ -48,7 +48,5 @@ exploration methods and apparatus</a>, Kayak
 customer support management system</a>, Kayak
 
 </li></ul>
-  
-
 
 </td>

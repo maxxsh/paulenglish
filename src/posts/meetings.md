@@ -1,5 +1,5 @@
 ---
-title: "Meditation"
+title: "Meetings"
 date: 2020-10-17
 tags: self-development
 ---
@@ -60,6 +60,5 @@ someone who can type quickly, and who can synthesize input
 concisely. Publish an assigned driver for each action item.
 
 </p><p>See also: <a href="/time.html">time management</a>.
-
 
 </p></td>

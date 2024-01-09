@@ -1,7 +1,7 @@
 ---
 title: "Meditation"
 date: 2022-09-22
-tags: self-development
+tags: health
 ---
 
 <p>Here is what I have learned about meditation.
