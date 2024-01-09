@@ -2,7 +2,7 @@
 title: "base64"
 description: "The end of procrastination is the art of letting go"
 date: 2017-06-12
-thumb: universal-framework-ivankov.jpg
+thumb: universal-framework.jpg
 tags:
   - webdevelopment
 ---

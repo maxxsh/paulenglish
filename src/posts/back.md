@@ -1,7 +1,7 @@
 ---
 title: "Back Pain"
 date: 2020-10-16
-thumb: "universal-engeneiring-ivankov.jpg"
+thumb: "universal-engeneiring.jpg"
 tags:
   - health
 ---
