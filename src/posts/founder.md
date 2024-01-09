@@ -1,7 +1,9 @@
 ---
 title: "Founder Stories"
 date: 2023-11-20
-tags: self-development
+tags:
+  - self-development
+  - startups
 ---
 
 <p>Paul is the founder or co-founder of these startups:

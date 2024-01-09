@@ -1,7 +1,9 @@
 ---
 title: "Non-Disclosure Agreements (NDAs)"
 date: 2020-10-17
-tags: self-development
+tags:
+  - self-development
+  - startups
 ---
 
 <p>In business, people use non-disclosure agreements (NDAs) when they

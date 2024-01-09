@@ -4,6 +4,7 @@ date: 2023-08-03T10:00
 thumb: "fractal-abstract.jpg"
 tags:
   - self-development
+  - health
 ---
 
 <p>I used to have anger in my teen years and 20s. I learned

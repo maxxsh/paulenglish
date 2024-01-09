@@ -4,7 +4,8 @@ description: "The end of procrastination is the art of letting go"
 date: 2017-06-12
 thumb: universal-framework.jpg
 tags:
-  - webdevelopment
+  - web
+  - development
 ---
 
 Long URLs often get wrapped and become non-clickable in some email clients.

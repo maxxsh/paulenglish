@@ -1,7 +1,9 @@
 ---
 title: "Idea Selection"
 date: 2022-07-24
-tags: self-development
+tags:
+  - self-development
+  - startups
 ---
 
 <p>As someone who often has more ideas than time to pursue them all,
@@ -34,6 +36,5 @@ success. Not building billion dollar companies, but instead, just
 showing you can get things completed, things your friends would be
 proud of. It is this demonstration of ability to complete things that
 will help convince your friends that your new idea will get done as well.
-
 
 </p></td>

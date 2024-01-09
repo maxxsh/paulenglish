@@ -2,7 +2,9 @@
 title: "Startup Investments"
 thumb: "abstract-math.webp"
 date: 2023-08-23
-tags: self-development
+tags:
+  - self-development
+  - startups
 ---
 
 <p>My startup investment thesis has been 70%
