@@ -4,7 +4,7 @@ date: 2023-05-23
 thumb: "lola-capital-one-graphics.webp"
 thumbAlt: "graphics saying capital one bank is exited to announce the Lola Team is joining us"
 tags:
-  - sturtups
+  - startups
 ---
 
 <p>I cofounded Lola Travel in 2015 with
