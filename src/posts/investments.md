@@ -1,5 +1,6 @@
 ---
 title: "Startup Investments"
+thumb: "abstract-math.jpg"
 date: 2023-08-23
 tags: self-development
 ---
