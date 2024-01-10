@@ -28,4 +28,4 @@ Here is a list of the startups co-founded by Paul English.
 
 11. [Speed Games](/cupid.html), a company I started in high school, where my sole game was Cupid for the Commodore 64. I licensed this to Games by Apollo, and used proceeds to buy an Apple ][+ with 48K of memory, an eprom burner, and a dot matrix printer. Although my licensing deal was only $25k, in many ways this was my most meaningful startup, as it taught me that code could turn into cash.
 
-See also my [non-profits](/nonprofits.html).
+See also my [non-profits](/nonprofits).
